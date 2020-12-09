@@ -7,6 +7,9 @@
     <strong>Diary: </strong>
     <?php
         echo $_POST['title'];
+    ?>
+    <br>
+    <?php
         echo $_POST['text'];
     ?>
     </body>
