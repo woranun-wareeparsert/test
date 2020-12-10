@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <img src="wall.jpg"></img>
+    <img src="wallpaper.jpg"></img>
     <strong>Diary: </strong>
     <?php
         echo $_POST['name'];
