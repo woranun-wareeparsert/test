@@ -13,7 +13,7 @@
         echo $_POST['Diary'];
     ?></h1>
     <style>
-        h1   {font-size:400%; color:rgb(60, 179, 113);}
+        h1   {font-size:400%; color:white;}
     </style>
 </head>
 
