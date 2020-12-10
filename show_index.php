@@ -8,7 +8,7 @@
 <body background="wallpaper.jpg">
     <strong>Diary: </strong>
     <?php
-        echo $_POST['name'];
+        <h1> echo $_POST['name'];</h1>
     ?>
         <br>
         <?php
