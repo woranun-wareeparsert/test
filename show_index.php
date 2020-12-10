@@ -6,6 +6,7 @@
 </head>
 
 <body>
+    <img src="wall.jpg"></img>
     <strong>Diary: </strong>
     <?php
         echo $_POST['name'];
