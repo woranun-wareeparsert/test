@@ -3,6 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <h1>Diary : {{ name }}</h1>
 </head>
 
 <body background="wallpaper.jpg">
