@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 
-<body img src="wallpaper.jpg">
+<body background="wallpaper.jpg">
     <strong>Diary: </strong>
     <?php
         echo $_POST['name'];
