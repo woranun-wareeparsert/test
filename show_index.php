@@ -12,5 +12,13 @@
     <?php
         echo $_POST['Date'];
     ?>
+    <br>
+    <?php
+        echo $_POST['Diary'];
+    ?>
+    <br>
+    <?php
+        echo $_POST['Story'];
+    ?>
     </body>
 </html>
