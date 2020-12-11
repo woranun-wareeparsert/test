@@ -12,7 +12,7 @@
     <style>
         h1   {font-size:400%; color:rgb(60, 179, 113);
         }
-        body {background="wallpaper.jpg";
+        body {background="wallpaper.jpg"
         }
     </style>
 </head>
