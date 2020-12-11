@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <h1 style="text-align:center;">Diary : <?php echo $_POST['Diary'];?></h1>
     <style>
-        h1   {font-size:400%; color:rgb(60, 179, 113);
+        h1   {font-size:400%; color:white;
         }
         body {background-image: url('wallpaper.jpg');
         }
