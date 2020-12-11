@@ -14,8 +14,6 @@
         }
         body {background="wallpaper.jpg"
         }
-        wrapper {width: 800px; margin: auto; background:orchid; border: 1px dashed;
-        }
     </style>
 </head>
 
