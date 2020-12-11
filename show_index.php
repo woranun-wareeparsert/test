@@ -12,15 +12,19 @@
     <style>
         h1   {font-size:400%; color:rgb(60, 179, 113);
         }
-        body {background="wallpaper.jpg"
+        body {background="wallpaper.jpg";
+        }
+        wrapper {width: 800px; margin: auto;
         }
     </style>
 </head>
 
 <body>
-    <h3 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
-    <?php echo $_POST['Story'];?><br></h3>
-    <h5 align="right"> Form : <?php echo $_POST['name'];?></h5>
+    <div id="wrapper">
+        <h3 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
+        <?php echo $_POST['Story'];?><br></h3>
+        <h5 align="right"> Form : <?php echo $_POST['name'];?></h5>
+    </div>
 </body>
 
 </html>
