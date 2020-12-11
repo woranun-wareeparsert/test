@@ -13,6 +13,9 @@
         h1   {font-size:400%; color:white;
         }
         body {background-image: url('wallpaper.jpg');
+              min-height: 100%;
+              background-position: left;
+              background-size: cover;
         }
     </style>
 </head>
