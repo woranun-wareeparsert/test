@@ -18,11 +18,9 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <h3 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
-        <?php echo $_POST['Story'];?><br></h3>
-        <h5 align="right"> Form : <?php echo $_POST['name'];?></h5>
-    </div>
+    <h3 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
+    <?php echo $_POST['Story'];?><br></h3>
+    <h5 align="right"> Form : <?php echo $_POST['name'];?></h5>
 </body>
 
 </html>
