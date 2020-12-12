@@ -17,7 +17,7 @@
     </header>
     <div id="page">
     <h1 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
-    <?php echo $_POST['Story'];?></h1><br>
+    <?php echo $_POST['Story'];?><br>
     <?php echo $_POST['feeling'];
     $text = $_POST['feeling'];
     if ($text=="sad")
@@ -149,7 +149,6 @@ h1 {
     line-height: 1.1em;
     padding: 6px 0;
     font-weight: normal;
-    text-align: center;
 }
 
 
