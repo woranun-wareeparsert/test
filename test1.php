@@ -16,7 +16,7 @@
       <h1>Diary : <?php echo $_POST['Diary'];?></h1>
     </header>
     <div id="page">
-    <h1 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
+    <h2 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
     <?php echo $_POST['Story'];?><br>
     <?php echo $_POST['feeling'];
     $text = $_POST['feeling'];
@@ -32,8 +32,8 @@
     {
         echo "ดีแล้วนะ";
     }
-    ?></h1>
-    <h1 align="right"> Form : <?php echo $_POST['name'];?></h1>
+    ?></h2>
+    <h2 align="right"> Form : <?php echo $_POST['name'];?></h2>
     </div>
   </div>
 
@@ -149,6 +149,18 @@ h1 {
     line-height: 1.1em;
     padding: 6px 0;
     font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Fredoka One', Helvetica, Tahoma, sans-serif;
+    color: #ff6347;
+    text-shadow: 1px 2px 0 #7184d8;
+    font-size: 2em;
+    line-height: 1.1em;
+    padding: 6px 0;
+    font-weight: normal;
+    text-align: center;
 }
 
 
