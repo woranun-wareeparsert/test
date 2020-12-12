@@ -23,15 +23,15 @@
     <h5 align="right"> Form : <?php echo $_POST['name'];?></h5><br>
     <?php echo $_POST['gender'];
     $text = $_POST['gender'];
-    if ($text == "sad")
+    if ($text=="sad")
     {
         echo "สู้ๆ";
     }
-    elseif ($text == "normal")
+    elseif ($text=="normal")
     {
         echo "ทำต่อไป";
     }
-    elseif ($text == "happy")
+    elseif ($text=="happy")
     {
         echo "ดีแล้วนะ";
     }
