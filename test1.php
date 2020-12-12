@@ -32,8 +32,8 @@
     {
         echo "ดีแล้วนะ";
     }
-    ?>
-    <h3 align="right"> Form : <?php echo $_POST['name'];?></h3>
+    ?></h1>
+    <h1 align="right"> Form : <?php echo $_POST['name'];?></h1>
     </div>
   </div>
 
@@ -143,7 +143,7 @@ body {
 
 h1 {
     font-family: 'Fredoka One', Helvetica, Tahoma, sans-serif;
-    color: #fff;
+    color: #ff6347;
     text-shadow: 1px 2px 0 #7184d8;
     font-size: 3.5em;
     line-height: 1.1em;
