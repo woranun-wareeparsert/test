@@ -21,8 +21,8 @@
     <h3 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
     <?php echo $_POST['Story'];?><br></h3>
     <h5 align="right"> Form : <?php echo $_POST['name'];?></h5><br>
-    <?php echo $_POST['gender'];
-    $text = $_POST['gender'];
+    <?php echo $_POST['feeling'];
+    $text = $_POST['feeling'];
     if ($text=="sad")
     {
         echo "สู้ๆ";
