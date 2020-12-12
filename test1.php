@@ -13,12 +13,11 @@
 <body>
   <div id="w">
     <header id="title">
-      <h1>Diary</h1>
+      <h1>Diary : <?php echo $_POST['Diary'];?></h1>
     </header>
     <div id="page">
-    <h3 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
-    <?php echo $_POST['Story'];?><br></h3>
-    <h5 align="right"> Form : <?php echo $_POST['name'];?></h5><br>
+    <h1 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
+    <?php echo $_POST['Story'];?></h1><br>
     <?php echo $_POST['feeling'];
     $text = $_POST['feeling'];
     if ($text=="sad")
@@ -34,6 +33,7 @@
         echo "ดีแล้วนะ";
     }
     ?>
+    <h3 align="right"> Form : <?php echo $_POST['name'];?></h3>
     </div>
   </div>
 
