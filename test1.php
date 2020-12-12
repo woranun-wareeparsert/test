@@ -154,8 +154,8 @@ h1 {
 
 h2 {
     font-family: 'Fredoka One', Helvetica, Tahoma, sans-serif;
-    color: blue;
-    text-shadow: 1px 2px 0 #7184d8;
+    color: #8c6347;
+    text-shadow: 1px 2px 0 #ffffff;
     font-size: 2.5em;
     line-height: 1.1em;
     padding: 4px 0;
