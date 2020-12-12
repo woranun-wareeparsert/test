@@ -156,11 +156,10 @@ h2 {
     font-family: 'Fredoka One', Helvetica, Tahoma, sans-serif;
     color: #ff6347;
     text-shadow: 1px 2px 0 #7184d8;
-    font-size: 2em;
+    font-size: 2.5em;
     line-height: 1.1em;
     padding: 6px 0;
     font-weight: normal;
-    text-align: center;
 }
 
 
