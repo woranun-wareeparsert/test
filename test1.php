@@ -17,7 +17,7 @@
     </header>
     <div id="page">
     <h2 style="text-align:center;"><?php echo $_POST['Date'];?><br><br>
-    <?php echo $_POST['Story'];?><br>
+    <?php echo $_POST['Story'];?><br><br>
     <?php echo $_POST['feeling'];
     $text = $_POST['feeling'];
     if ($text=="sad")
